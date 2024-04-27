@@ -30,6 +30,7 @@ import tesla from "./company/tesla.png";
 import zoho from "./company/zoho.png"
 import jio from "./company/jio.png"
 import betterworks from "./company/betterworks.png"
+import openFabric from "./company/open_fabric.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -66,6 +67,7 @@ export {
   zoho,
   jio,
   betterworks,
+  openFabric,
   carrent,
   jobit,
   tripguide,

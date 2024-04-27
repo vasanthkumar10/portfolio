@@ -1,27 +1,28 @@
 import {
-  mobile,
   backend,
+  betterworks,
+  carrent,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  docker,
+  git,
+  html,
+  javascript,
+  jio,
+  jobit,
+  mobile,
+  mongodb,
+  nodejs,
+  openFabric,
+  postgres,
+  python,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  zoho,
-  jio,
-  betterworks,
-  carrent,
-  jobit,
   tripguide,
-  threejs, postgres, python,
+  typescript,
+  web,
+  zoho,
 } from "../assets";
 
 export const navLinks = [
@@ -115,11 +116,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Independent Consultant",
+    company_name: "Open Fabric",
+    icon: openFabric,
+    iconBg: "#383E56",
+    date: "Nov 2023 - current",
+    points: [
+      "Developing and maintaining web applications using Vue Js, Django and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
     title: "Full stack Developer",
     company_name: "BetterWorks",
     icon: betterworks,
     iconBg: "#383E56",
-    date: "July 2021 - current",
+    date: "July 2021 - Oct 2023",
     points: [
       "Developing and maintaining web applications using Vue Js, Django and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -158,35 +172,38 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Vasanth is an excellent colleague and a friend to have in your corner. I really admire his dedication to seeing all the tasks to fruition",
+    name: "Sagar",
+    designation: "SSE",
+    company: "BetterWorks",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQGvEukcCVSGVg/profile-displayphoto-shrink_100_100/0/1700209591001?e=1719446400&v=beta&t=DNYjyMySMYd0waUx9fiRTh-LFnp5Lk7AMwt4AEd2tw4",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I have worked directly with Vasanth. He is always love to work and open to learn new technologies. He is also a good team player",
+    name: "Nandhakumar",
+    designation: "SSE",
+    company: "Blazeclan",
+    image:
+      "https://media.licdn.com/dms/image/C5103AQGeAFynbY7Ohg/profile-displayphoto-shrink_100_100/0/1544090854927?e=1719446400&v=beta&t=sAwsomDsv-Q9SZF8QqQQ_D4PQK_wNccEvy_Trlo2e9M",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Vasanth is an outstanding professional who consistently goes above and beyond to deliver results.",
+    name: "Praveen",
+    designation: "SASE",
+    company: "Vegabird",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQHCw3uYiWAgNA/profile-displayphoto-shrink_100_100/0/1693392340171?e=1719446400&v=beta&t=Dn5eptjfm2blspB7kZAj-85Lzc1pAqVdqNpIztdHqxY",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ethroids",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to buy, sell and bid NFT products online all over the world",
     tags: [
       {
         name: "react",
@@ -202,12 +219,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vasanthkumar10/ethdroids",
   },
   {
-    name: "Job IT",
+    name: "Namaste NFT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows users to buy, sell and bid NFT products online all over the world",
     tags: [
       {
         name: "react",
@@ -223,19 +240,19 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vasanthkumar10/Namaste-NFT",
   },
   {
-    name: "Trip Guide",
+    name: "Z Chat",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive chat application that allows users to interact with other users and authenticated users with a variety of features",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "socket.io",
         color: "green-text-gradient",
       },
       {
@@ -244,7 +261,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vasanthkumar10/Zchat",
   },
 ];
 
