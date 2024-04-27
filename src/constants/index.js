@@ -21,6 +21,7 @@ import {
   tailwind,
   tripguide,
   typescript,
+  vasizebron,
   web,
   zoho,
 } from "../assets";
@@ -116,16 +117,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Independent Consultant",
-    company_name: "Open Fabric",
-    icon: openFabric,
+    title: "Founder",
+    company_name: "Vasizebron",
+    icon: vasizebron,
     iconBg: "#383E56",
     date: "Nov 2023 - current",
     points: [
-      "Developing and maintaining web applications using Vue Js, Django and other related technologies.",
+      "Transforming Futures, Empowering Growth",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "passionate about bridging the gap between education and the professional world. Our dedicated team specializes in providing comprehensive placement services for colleges, connecting talented students with exciting career opportunities in leading industries.",
     ],
   },
   {
